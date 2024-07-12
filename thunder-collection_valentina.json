@@ -1,0 +1,137 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "valentina",
+    "collectionId": "1547ac5e-e60d-4766-b567-5a24aebd6a8f",
+    "dateExported": "2024-07-12T03:50:58.986Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9f6a740f-dee7-428a-b95a-adac413e6aaf",
+            "colId": "1547ac5e-e60d-4766-b567-5a24aebd6a8f",
+            "containerId": "",
+            "name": "ver gatitos",
+            "url": "localhost:3000/gatos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-12T02:55:09.062Z",
+            "modified": "2024-07-12T02:55:55.933Z",
+            "headers": []
+        },
+        {
+            "_id": "cfd7bfd3-1f86-40cf-a2de-9deb7afa7f97",
+            "colId": "1547ac5e-e60d-4766-b567-5a24aebd6a8f",
+            "containerId": "",
+            "name": "ver gatito",
+            "url": "localhost:3000/gatos/7",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-12T02:56:37.722Z",
+            "modified": "2024-07-12T02:57:04.915Z",
+            "headers": []
+        },
+        {
+            "_id": "d2107233-d083-4eb6-8f90-81f96de11e94",
+            "colId": "1547ac5e-e60d-4766-b567-5a24aebd6a8f",
+            "containerId": "",
+            "name": "agregar gatito",
+            "url": "localhost:3000/gatos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-12T02:57:57.855Z",
+            "modified": "2024-07-12T03:00:22.191Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\": \"Lucas Pedrito\",\n    \"color\": \"Negro\",\n    \"edad\": 5\n  }",
+                "form": []
+            }
+        },
+        {
+            "_id": "2020fde1-6828-4730-96ed-98398dd403eb",
+            "colId": "1547ac5e-e60d-4766-b567-5a24aebd6a8f",
+            "containerId": "",
+            "name": "borrar gatito",
+            "url": "localhost:3000/gatos/10",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-12T03:14:02.384Z",
+            "modified": "2024-07-12T03:14:27.908Z",
+            "headers": []
+        },
+        {
+            "_id": "3a551729-03ff-4efa-b582-fec2436d10bc",
+            "colId": "1547ac5e-e60d-4766-b567-5a24aebd6a8f",
+            "containerId": "",
+            "name": "editar gatito",
+            "url": "localhost:3000/gatos/9",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-07-12T03:15:31.586Z",
+            "modified": "2024-07-12T03:16:53.177Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"nombre\": \"Maria Isabel\",\n      \"color\": \"muchos colores\",\n      \"edad\": 0}",
+                "form": []
+            }
+        },
+        {
+            "_id": "672b459f-38cc-4a87-9198-9e824ea1af10",
+            "colId": "1547ac5e-e60d-4766-b567-5a24aebd6a8f",
+            "containerId": "",
+            "name": "registro",
+            "url": "localhost:3000/register",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-07-12T03:25:56.850Z",
+            "modified": "2024-07-12T03:30:10.876Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"nombre\": \"María José\", \"email\": \"Mariajoseita@gmail.com\", \"pass\": \"71717\"}",
+                "form": []
+            }
+        },
+        {
+            "_id": "cfdfdd17-03b1-461f-9624-f05833a2a64d",
+            "colId": "1547ac5e-e60d-4766-b567-5a24aebd6a8f",
+            "containerId": "",
+            "name": "login",
+            "url": "localhost:3000/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-07-12T03:31:11.881Z",
+            "modified": "2024-07-12T03:32:06.145Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"nombre\": \"María José\", \"email\": \"Mariajoseita@gmail.com\", \"pass\": \"71717\"}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d21bab2f-3648-4549-99a6-f68786b5ce47",
+            "colId": "1547ac5e-e60d-4766-b567-5a24aebd6a8f",
+            "containerId": "",
+            "name": "agregar",
+            "url": "localhost:3000/gatos",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-07-12T03:37:02.592Z",
+            "modified": "2024-07-12T03:41:26.334Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1hcmlham9zZWl0YUBnbWFpbC5jb20iLCJpYXQiOjE3MjA3NTUxMjZ9.D5P1StQ0S69H-rj_6s36I-fzfnZd0-3WiTZwpEEpe-c"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\"nombre\": \"Lucas\",\n      \"color\": \"nigga\",\n      \"edad\": 10}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "-cbPjOjLySGBUJI64uWQgRR1riVxugPJoucSLVqQjX7feqPKPfFUucOJ0w1XpuQ3qz8AXXuQiLrig_eFZro_Ww"
+}
